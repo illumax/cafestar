@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+.navbar-brand
+    {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+
+.container-fluid {
+  position: relative;
+}
+
+.fa-coffee {
+  color: #ffffff;
+}
+
+.cafestar-logo {
+  font-family: 'Kaushan Script', cursive;
+  color: #ffffff;
+}
+
+.bg1 {
+  background: #2b2d34 url("../img/bg1.jpg") center center no-repeat;
+  background-size: cover;
+  /* width: 90%; */
+  min-height: 80vh;
+}
+.bg2 {
+  background: #2b2d34 url("../img/bg2.jpg") center center no-repeat;
+  background-size: cover;
+  /* width: 90%; */
+  min-height: 80vh;
+}
+
+.bg3 {
+  background: #2b2d34 url("../img/bg3.jpg") center center no-repeat;
+  background-size: cover;
+  /* width: 90%; */
+  min-height: 80vh;
+}
+
+.main-page-block {
+  font-family: 'Kaushan Script', cursive;
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  background-color: #dc3545;
+  color: white;
+  padding: 1rem 1.9rem 1rem 1rem;
+  border-radius: 1rem;
+}
+
+.main-page-block h4 {
+  font-size: 3rem;
+}
+
+.info-block {
+  font-family: 'Kaushan Script', cursive;
+  height: 70vh;
+}
+
+h1.page-title {
+  font-size: 5rem;
+  color: #dc3545;
+  font-family: 'Kaushan Script', cursive;
+}
